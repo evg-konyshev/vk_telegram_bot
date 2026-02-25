@@ -2,8 +2,8 @@ from vk_api.longpoll import VkEventType
 
 from src.vk.messages_listener import VKGroupEventsListener
 from telegram.bot_client import TelegramBotClient
-from core.logger import get_logger
-from core.settings import get_settings
+from src.core.logger import get_logger
+from src.core import get_settings
 
 logger = get_logger(__name__)
 settings = get_settings()

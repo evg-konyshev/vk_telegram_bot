@@ -7,7 +7,7 @@ from retry import retry
 
 from core.logger import get_logger
 from core.settings import get_settings
-from src.vk.connection import get_long_pool, get_connection
+from vk.connection import get_long_pool, get_connection
 
 settings = get_settings()
 logger = get_logger(__name__)
